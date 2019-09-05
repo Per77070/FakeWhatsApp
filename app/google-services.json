@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451592301826",
+    "firebase_url": "https://fakewhatsapp-d8655.firebaseio.com",
+    "project_id": "fakewhatsapp-d8655",
+    "storage_bucket": "fakewhatsapp-d8655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451592301826:android:d0246901d1cca229aee61b",
+        "android_client_info": {
+          "package_name": "com.example.fakewhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451592301826-nqijpsu3jvbqab88cprck4h8f4ae09jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fakewhatsapp",
+            "certificate_hash": "77a65ad807a723eb54dd1a0f2182c804d4a49c29"
+          }
+        },
+        {
+          "client_id": "451592301826-g2spol9sbovd32q0l087dv4sq1sudsha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-XPNuNt-YwMBG37h4d6PSBY-eHkEEH5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451592301826-g2spol9sbovd32q0l087dv4sq1sudsha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
