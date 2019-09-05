@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
    private Toolbar mToolbar;
     private ViewPager myViewPager;
     private TabLayout myTabLayout;
-
+private TabsAccessorAdapter myTabsAccessorAdapter;
 
 
 
@@ -25,12 +25,13 @@ public class MainActivity extends AppCompatActivity {
 
 mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
 setSupportActionBar(mToolbar);
-
-
-
-
 getSupportActionBar().setTitle("WhatsApp");
 
+
+
+mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
+myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
+myTabsAccessorAdapter = new TabsAccessorAdapter(getSupportFragmentManager());
 
     }
 }
