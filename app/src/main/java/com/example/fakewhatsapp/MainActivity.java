@@ -32,6 +32,8 @@ getSupportActionBar().setTitle("WhatsApp");
 mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
 myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
 myTabsAccessorAdapter = new TabsAccessorAdapter(getSupportFragmentManager());
-
+myViewPager.setAdapter(myTabsAccessorAdapter);
+myTabLayout = (TabLayout) findViewById(R.id.main_tabs);
+myTabLayout.setupWithViewPager(myViewPager);
     }
 }
